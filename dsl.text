@@ -1,0 +1,326 @@
+
+
+
+<h1><span>DSL Status</span></h1>
+
+<h2><span>This status page shows technical parameters of your data connection.</span></h2>
+
+<h3><span>DSL</span></h3>
+
+<div class="h3-content mobile-padding-bottom-lg">
+        <div class="row padding-top-bottom-20" id="">
+          <div class="col-md-3 col-sm-3 col-xs-6" id="">
+              <span class="" id="">DSL Mode</span>
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-6" id="">
+              <span id='adslStat_info_mode' class='pull-right'>ITU-T G.993.2_Annex_B (VDSL2)</span>
+          </div>
+      </div>
+    
+  <div class="row not-flex-row">
+    <div class="col-md-12">
+      <hr/>
+    </div>
+  </div>
+        <div class="row padding-top-bottom-20" id="">
+          <div class="col-md-3 col-sm-3 col-xs-6" id="">
+              <span class="" id="">DSL Uptime</span>
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-6" id="">
+              <span id='adslStat_info_uptime' class='pull-right'>6 days, 6 hours, 32 minutes and 11 seconds</span>
+          </div>
+      </div>
+    
+  <div class="row not-flex-row">
+    <div class="col-md-12">
+      <hr/>
+    </div>
+  </div>
+  
+    <div class="row padding-top-bottom-20 ">
+        <div class="col-md-6 col-sm-6 col-xs-6">
+            <span>Line Coding</span>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6">
+            <span class="pull-right" id="adslStat_info_lineCode">
+            DMT</span>
+        </div>
+    </div>
+  
+    <div class="row not-flex-row">
+        <div class="col-md-12">
+            <hr/>
+        </div>
+    </div>
+  
+  
+    <div class="row padding-top-bottom-20 ">
+        <div class="col-md-6 col-sm-6 col-xs-6">
+            <span>Status</span>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6">
+            <span class="pull-right" id="adslStat_info_stat">
+            Connected</span>
+        </div>
+    </div>
+  
+    <div class="row not-flex-row">
+        <div class="col-md-12">
+            <hr/>
+        </div>
+    </div>
+  
+  
+    <div class="row padding-top-bottom-20 ">
+        <div class="col-md-6 col-sm-6 col-xs-6">
+            <span>Number of Cuts</span>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6">
+            <span class="pull-right" id="adslStat_info_cuts">
+            7</span>
+        </div>
+    </div>
+  
+    <div class="row not-flex-row">
+        <div class="col-md-12">
+            <hr/>
+        </div>
+    </div>
+  
+  
+    <div class="row padding-top-bottom-20 ">
+        <div class="col-md-6 col-sm-6 col-xs-6">
+            <span>Link Power State</span>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6">
+            <span class="pull-right" id="adslStat_info_power">
+            L0</span>
+        </div>
+    </div>
+  
+  
+</div>
+
+<h3><span>Line Quality</span></h3>
+   <div class="h3-content adsl-table mobile-padding-bottom-lg" id="">
+     <div class="table-responsive" id="">
+       <table class="table no-margin-bottom" id="line_quality">
+         <tbody class="vdsl-tbl"><tr>
+</tr><tr>
+<td>Current Rate</td>
+<td>66947 kbps</td>
+<td>16675 kbps</td>
+</tr>
+<tr>
+<td>Maximum Rate</td>
+<td>66535 kbps</td>
+<td>16675 kbps</td>
+</tr>
+<tr>
+<td>Signal-to-Noise Ratio</td>
+<td>5.9 dB</td>
+<td>5.6 dB</td>
+</tr>
+<tr>
+<td>Attenuation</td>
+<td>DS1 14.5 dB, DS2 33.4 dB, DS3 51.5 dB</td>
+<td>US0 4.0 dB, US1 27.7 dB, US2 39.6 dB</td>
+</tr>
+<tr>
+<td>Power</td>
+<td>13.1 dBm</td>
+<td>7.4 dBm</td>
+</tr>
+<tr>
+<td>CRC Errors in last 9032 minute(s)</td>
+<td>1236</td>
+<td>1480</td>
+</tr>
+<tr>
+<td>K (number of bytes in DMT frame)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>R (number of bytes in RS code word)</td>
+<td>10</td>
+<td>14</td>
+</tr>
+<tr>
+<td>S (RS code word size in DMT frame)</td>
+<td>0.1045</td>
+<td>0.4579</td>
+</tr>
+<tr>
+<td>D (interleaver depth)</td>
+<td>8</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Delay</td>
+<td>0 ms</td>
+<td>0 ms</td>
+</tr></tbody>
+       </table>
+     </div>
+   </div>
+  
+
+<div class="h3-content adsl-table mobile-padding-bottom-lg">
+  <div class="table-responsive">
+    <table class="table no-margin-bottom" id = "line_quality1">
+        <tbody class="vdsl-tbl">
+            
+            <tr>
+                <td><span>Super Frames</span>
+                </td>
+                <td id="adslStat_info_dwnSuperFrames">0 </td>
+                <td id="adslStat_info_upSuperFrames">73991660 </td>
+            </tr>
+            
+            <tr>
+                <td><span>Super Frame Errors</span>
+                </td>
+                <td id="adslStat_info_dwnSuperFrameErrors">370 </td>
+                <td id="adslStat_info_upSuperFrameErrors">545 </td>
+            </tr>
+            
+            <tr>
+                <td><span>RS Words</span>
+                </td>
+                <td id="adslStat_info_dwnRS">3492902288 </td>
+                <td id="adslStat_info_upRS">439342854 </td>
+            </tr>
+            
+            <tr>
+                <td><span>RS Correctable Errors</span>
+                </td>
+                <td id="adslStat_info_dwnRSCorrectErrors">206014881 </td>
+                <td id="adslStat_info_upRSCorrectErrors">4942 </td>
+            </tr>
+            
+            <tr>
+                <td><span>RS Uncorrectable Errors</span>
+                </td>
+                <td id="adslStat-info_dwnRSUnCorrectErrors">0 </td>
+                <td id="adslStat_info_upRSUnCorrectErrors">0 </td>
+            </tr>
+            
+        </tbody>
+    </table>
+  </div>
+</div>
+<div class="h3-content adsl-table mobile-padding-bottom-lg">
+  <div class="table-responsive">
+    <table class="table no-margin-bottom">
+        <tbody class="vdsl-tbl">
+            
+            <tr>
+                <td><span>HEC Errors</span>
+                </td>
+                <td id="adslStat_info_dwnHECErrors">0 </td>
+                <td id="adslStat_info_upHECErrors">0 </td>
+            </tr>
+            
+            <tr>
+                <td><span>OCD Errors</span>
+                </td>
+                <td id="adslStat_info_dwnOCDErrors">0 </td>
+                <td id="adslStat_info_upOCDErrors">0 </td>
+            </tr>
+            
+            <tr>
+                <td><span>LCD Errors</span>
+                </td>
+                <td id="adslStat_info_dwnLCDErrors">0 </td>
+                <td id="adslStat_info_upLCDErrors">0 </td>
+            </tr>
+            
+            <tr>
+                <td><span>Total Cells</span>
+                </td>
+                <td id="adslStat_info_dwnTotCells">987591146 </td>
+                <td id="adslStat_info_upTotCells">0 </td>
+            </tr>
+            
+            <tr>
+                <td><span>Data Cells</span>
+                </td>
+                <td id="adslStat_info_dwnDataCells">3297102532 </td>
+                <td id="adslStat_info_upDataCells">0 </td>
+            </tr>
+            
+            <tr>
+                <td><span>Bit Errors</span>
+                </td>
+                <td id="adslStat_info_dwnBitErrors">0 </td>
+                <td id="adslStat_info_upBitErrors">0 </td>
+            </tr>
+            
+        </tbody>
+    </table>
+  </div>
+</div>
+<div class="h3-content adsl-table mobile-padding-bottom-lg">
+  <div class="table-responsive">
+    <table class="table no-margin-bottom">
+        <tbody class="vdsl-tbl">
+            
+            <tr>
+                <td><span>Total ES</span>
+                </td>
+                <td id="adslStat_info_dwnTotalES">769 </td>
+                <td id="adslStat_info_upTotalES">1285 </td>
+            </tr>
+            
+            <tr>
+                <td><span>Total SES</span>
+                </td>
+                <td id="adslStat_info_dwnTotalSES">165 </td>
+                <td id="adslStat_info_upTotalSES">10 </td>
+            </tr>
+            
+            <tr>
+                <td><span>Total UAS</span>
+                </td>
+                <td id="adslStat_info_dwnTotalUAS">1613 </td>
+                <td id="adslStat_info_upTotalUAS">1284 </td>
+            </tr>
+            
+        </tbody>
+    </table>
+  </div>
+</div>
+<!--Framing parameters, G.INP stats, Vectoring stats and DSL bit loading are only for vodafone variant = VHA -->
+<!--this is only for vodafone variant = VHA-->
+
+<form id="adslStatus_form" class="form-horizontal" method="post" action="modals/status-support/vdslStatus.lp">
+  <input type="hidden" name= "CSRFtoken" id= "CSRFtoken" value = "0925eb0406eeb128bf97893eca00127315478f6852a325105bbc552142675275"></input>
+  <input type="hidden" name= "reset" id= "reset" value = "resetStat"></input>
+<div class="h3-content">
+    <div class="row">
+        <div class="col-md-12 col-xs-12 col-sm-12 text-right">
+          <input class="button" id="adslStat-btn-resetstat" value="Reset Statistics" type="button">
+        </div>
+    </div>
+</div>
+</form>
+<script>
+$(function(){
+  $("#adslStat-btn-resetstat").click(function(){
+    $("#adslStat-btn-resetstat").attr("disabled",true)
+    $("#adslStat-btn-resetstat").addClass("table-button-faded");
+    var target = "/modals/status-support/vdslStatus.lp";
+    var form = $("#adslStatus_form");
+    var params = form.serializeArray();
+    $("#content").load(target, params);
+});
+  $(".vdsl-tbl").before('<tr class="adsl-title-bdr"><th></th><th><span>Downstream</span></th><th><span>Upstream</span></th></tr>');
+});
+
+$.get("/modals/status-support/vdslStatus.lp?action=GET_BITS", function (data) {
+  $('#dsl_bit_chart').replaceWith(data);
+});
+
+</script>
+
